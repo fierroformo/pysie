@@ -7,7 +7,7 @@ class Conf(Enum):
 
 class Series(Enum):
     CETES: str = "SF43936"
-    DOLLAR_PRICE: str = "SF43718"
+    DOLLAR_EXCHANGE_RATE: str = "SF43718"
     INFLATION: str = "SP74665"
     TIIE: str = "SF331451"
     UDI: str = "SP68257"
