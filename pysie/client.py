@@ -29,14 +29,6 @@ def make_get_serie(method_name, serie_value):
     return _get_serie
 
 
-series_methods = {
-    "get_cetes": Series.CETES.value,
-    "get_dollar_price": Series.DOLLAR_PRICE.value,
-    "get_inflation": Series.INFLATION.value,
-    "get_tiie": Series.TIIE.value,
-    "get_udi": Series.UDI.value,
-    "get_yield_target": Series.YIELD_TARGET.value,
-}
-
-for method_name, serie_value in series_methods.items():
-    setattr(SIE, method_name, make_get_serie(method_name, serie_value))
+for serie in Series:
+    method_name: str = f"get_{serie.name.lower()}"
+    setattr(SIE, method_name, make_get_serie(method_name, serie.value))
