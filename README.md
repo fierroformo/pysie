@@ -13,7 +13,7 @@ SDK for get the principal Mexican financial indicators from SIE
 ## Usage
 
 ```
-from pysie.client import SIE
+from pysie-sdk.client import SIE
 
 sie_client = SIE()
 
