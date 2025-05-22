@@ -2,12 +2,12 @@
 SDK for get the principal Mexican financial indicators from SIE
 
 
-## Setup
-- Create venv
-` python -m venv venv`
-- Activate venv
-- Install dependencies:
-`pip install -r requirements.txt`
+## Installation
+1. `pip install pysie_sdk`
+
+2. Generate a Token in [SIE](https://www.banxico.org.mx/SieAPIRest/service/v1/token)
+
+3. Add the generated token in `SIE_API_KEY` envvar
 
 
 ## Usage
