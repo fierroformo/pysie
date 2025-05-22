@@ -13,7 +13,7 @@ SDK for get the principal Mexican financial indicators from SIE
 ## Usage
 
 ```
-from pysie-sdk.client import SIE
+from pysie_sdk.client import SIE
 
 sie_client = SIE()
 
@@ -33,26 +33,11 @@ sie_client.get_cetes() # Retrieve dictionary data for yield of cetes 28 days
 
 ## Available Indicators
 
-### Cetes 28 Days
-method `sie_client.get_cetes()`
-description `Valores gubernamentales Resultados de la subasta semanal Tasa de rendimiento Cetes a 28 días`
-
-### Dollar Exchange Rate
-method `sie_client.get_exchange_rate()`
-description `Tipo de cambio Pesos por dólar E.U.A. Tipo de cambio para solventar obligaciones denominadas en moneda extranjera Fecha de determinación`
-
-### Inflation
-method `sie_client.get_inflation()`
-description `Inflación No subyacente (nueva definición) Anual`
-
-### TIIE
-method `sie_client.get_tiie()`
-description `TIIE de Fondeo a Un Día Hábil Bancario, Mediana ponderada por volumen`
-
-### UDI
-method `sie_client.get_udi()`
-description `Valor de UDIS (Unidad de Medida de Inflación)`
-
-### Yield Target
-method `sie_client.get_yield_target()`
-description `Tasa objetivo`
+| Indicator            | Method                           | Description                                                                                                                              |
+|----------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Cetes 28 days        | `sie_client.get_cetes()`         | Valores gubernamentales Resultados de la subasta semanal Tasa de rendimiento Cetes a 28 días                                             |
+| Dollar Exchange Rate | `sie_client.get_exchange_rate()` | Tipo de cambio Pesos por dólar E.U.A. Tipo de cambio para solventar obligaciones denominadas en moneda extranjera Fecha de determinación |
+| Inflation            | `sie_client.get_inflation()`     | Inflación No subyacente (nueva definición) Anual                                                                                         |
+| TIIE                 | `sie_client.get_tiie()`          | TIIE de Fondeo a Un Día Hábil Bancario, Mediana ponderada por volumen                                                                    |
+| UDI                  | `sie_client.get_udi()`           | Valor de UDIS (Unidad de Medida de Inflación)                                                                                            |
+| Yield Target         | `sie_client.get_yield_target()`  | Tasa objetivo                                                                                                                            |
