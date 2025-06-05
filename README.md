@@ -41,9 +41,9 @@ sie_client.get_cetes() # Retrieve dictionary data for yield of cetes 28 days
 | TIIE                 | `sie_client.get_tiie()`          | TIIE de Fondeo a Un Día Hábil Bancario, Mediana ponderada por volumen                                                                    |
 | UDI                  | `sie_client.get_udi()`           | Valor de UDIS (Unidad de Medida de Inflación)                                                                                            |
 | Yield Target         | `sie_client.get_yield_target()`  | Tasa objetivo                                                                                                                            |
-| COUNTERFEIT_BILLS 20 | `sie_client.get_counterfeit_bills_20()` | Piezas falsas captadas al año por denominación (billete nacional), 20 pesos |
-| COUNTERFEIT_BILLS 50 | `sie_client.get_counterfeit_bills_50()` | Piezas falsas captadas al año por denominación (billete nacional), 50 pesos |
-| COUNTERFEIT_BILLS 100 | `sie_client.get_counterfeit_bills_100()` | Piezas falsas captadas al año por denominación (billete nacional), 100 pesos |
-| COUNTERFEIT_BILLS 200 | `sie_client.get_counterfeit_bills_200()` | Piezas falsas captadas al año por denominación (billete nacional), 200 pesos |
-| COUNTERFEIT_BILLS 500 | `sie_client.get_counterfeit_bills_500()` | Piezas falsas captadas al año por denominación (billete nacional), 500 pesos |
-| COUNTERFEIT_BILLS 1000 | `sie_client.get_counterfeit_bills_1000()` | Piezas falsas captadas al año por denominación (billete nacional), 1000 pesos |
+| Counterfeit bills 20 | `sie_client.get_counterfeit_bills_20()` | Piezas falsas captadas al año por denominación (billete nacional), 20 pesos |
+| Counterfeit bills 50 | `sie_client.get_counterfeit_bills_50()` | Piezas falsas captadas al año por denominación (billete nacional), 50 pesos |
+| Counterfeit bills 100 | `sie_client.get_counterfeit_bills_100()` | Piezas falsas captadas al año por denominación (billete nacional), 100 pesos |
+| Counterfeit bills 200 | `sie_client.get_counterfeit_bills_200()` | Piezas falsas captadas al año por denominación (billete nacional), 200 pesos |
+| Counterfeit bills 500 | `sie_client.get_counterfeit_bills_500()` | Piezas falsas captadas al año por denominación (billete nacional), 500 pesos |
+| Counterfeit bills 1000 | `sie_client.get_counterfeit_bills_1000()` | Piezas falsas captadas al año por denominación (billete nacional), 1000 pesos |
