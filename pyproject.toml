@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pysie-sdk"
-version = "0.1.3"
+version = "0.1.4"
 description = "This is a simple SDK for get the principal Mexican financial indicators"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -22,3 +22,39 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/fierroformo/pysie"
 "Bug Tracker" = "https://github.com/fierroformo/pysie/issues"
+
+
+
+💵 ¡Actualice pysie-sdk! y ahora ya puedes consultar la cantidad de billetes falsos detectados por denominación en el último año, con datos oficiales del Banco de México.
+
+
+
+Esta nueva funcionalidad permite acceder fácilmente a información clave para entender el impacto de la falsificación de efectivo en nuestro país. Por ejemplo, en el último año se detectaron más de 176 mil billetes falsos de $500, lo que resalta la importancia de estar informados y alerta.
+
+
+
+📊 El uso de efectivo sigue siendo el medio predominante para transacciones comerciales en México, especialmente entre sectores con menor acceso a servicios bancarios. Esto plantea un reto para la seguridad económica, pero también una gran oportunidad para las fintech.
+
+
+
+🚀 Las empresas de tecnología financiera pueden jugar un papel crucial al digitalizar pagos y reducir la dependencia del efectivo, ofreciendo soluciones más seguras, accesibles y eficientes para millones de personas.
+
+
+
+🔎 Mientras tanto, es importante que los usuarios estén atentos a los billetes que reciben y se informen sobre cómo identificar posibles falsificaciones.
+
+
+
+SDK 🐍  https://pypi.org/project/pysie-sdk/
+
+
+
+#Fintech #Banxico #pysie #PagosDigitales #TransformaciónDigital #BilletesFalsos #SeguridadFinanciera #México #Backend #Python
+
+
+
+4 principios basicos de poo
+
+normalizacion, ventajas y desventajas
+
+que es una transacción (atomicidad, consistencia, aislamiento, durabilidad)
