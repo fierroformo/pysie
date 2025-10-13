@@ -47,3 +47,5 @@ sie_client.get_cetes() # Retrieve dictionary data for yield of cetes 28 days
 | Counterfeit bills 200 | `sie_client.get_counterfeit_bills_200()` | Piezas falsas captadas al año por denominación (billete nacional), 200 pesos |
 | Counterfeit bills 500 | `sie_client.get_counterfeit_bills_500()` | Piezas falsas captadas al año por denominación (billete nacional), 500 pesos |
 | Counterfeit bills 1000 | `sie_client.get_counterfeit_bills_1000()` | Piezas falsas captadas al año por denominación (billete nacional), 1000 pesos |
+| Tarjetas de crédito usadas | `sie_client.get_used_credit_cards()` | Tarjetas de crédito utilizadas durante el último trimestre |
+| Tarjetas de débito  usadas | `sie_client.get_used_debit_cards()` | Tarjetas de débito utilizadas durante el último trimestre |

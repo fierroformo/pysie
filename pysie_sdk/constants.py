@@ -18,4 +18,6 @@ class Series(Enum):
     INFLATION: str = "SP74665"
     TIIE: str = "SF331451"
     UDI: str = "SP68257"
+    USED_CREDIT_CARDS: str = "SF61872"
+    USED_DEBIT_CARDS: str = "SF61873"
     YIELD_TARGET: str = "SF61745"
