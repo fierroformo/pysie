@@ -61,3 +61,10 @@ sie_client.get_cetes() # Retrieve dictionary data for yield of cetes 28 days
 | Bill in circulation 200 | `sie_client.get_bill_in_circulation_200()` | Billetes en circulación de $200mxn en millones de piezas |
 | Bill in circulation 500 | `sie_client.get_bill_in_circulation_500()` | Billetes en circulación de $500mxn en millones de piezas |
 | Bill in circulation 1000 | `sie_client.get_bill_in_circulation_1000()` | Billetes en circulación de $1000mxn en millones de piezas |
+
+| SPEI Operations | `sie_client.get_spei_operations()` | Número de operaciones en SPEI |
+| SPEI Operations Total Amount | `sie_client.get_spei_total_amount()` | Monto del total de las operaciones SPEI |
+| Total Credit Card | `sie_client.get_total_credit_cards()` | Tarjetas de credito vigentes de todas las marcas |
+| Total Credit Card VISA | `sie_client.get_total_credit_cards_visa()` | Tarjetas de credito vigentes VISA |
+| Total Credit Card  MasterCard | `sie_client.get_total_credit_cards_mc()` | Tarjetas de credito vigentes MasterCard |
+| Total Credit Card Other | `sie_client.get_total_credit_cards_other()` | Tarjetas de credito vigentes de otras marcas (AMEX, Carnet) |
